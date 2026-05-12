@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "dev" : "npx tsc"
+     "dev": "npx ts-node src/unionAndAny.ts"
   },
   "keywords": [],
   "author": "",
