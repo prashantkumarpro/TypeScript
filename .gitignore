@@ -1,2 +1,2 @@
 node_modules/
-dist/
+dist/git commit -m "Remove dist folder from tracking"
