@@ -1,10 +1,7 @@
 // union Type
 let subs : number | string = "1M"
-
 let apiRequestStatus : 'pending' | 'success' | 'error' = 'pending'
-
 let airlineSeat : 'asile' | 'window' | 'middle' = 'asile'
-
 airlineSeat = 'asile'
 
 // any Type
@@ -20,4 +17,4 @@ if(order === '28'){
 order = '11'
 }
 
-console.log(currentOrder);
+console.log("The current order is : " , currentOrder);
