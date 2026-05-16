@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
-     "dev": "npx ts-node src/unionAndAny.ts"
+    "dev": "npx ts-node src/unionAndAny.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.16.1"
   }
 }
